@@ -5,7 +5,7 @@ class MP3Importer
   end
 
   def files
-    Dir.glob("#{@path}/*.mp3").gsub(//)
+    Dir.glob("#{@path}/*.mp3")
     #binding.pry
   end
 
