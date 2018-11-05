@@ -9,7 +9,7 @@ class MP3Importer
     #binding.pry
   end
 
-  def import(filenames)
+  def import
     files.each do |file|
       Song.new_by_filename(file)
     end 
