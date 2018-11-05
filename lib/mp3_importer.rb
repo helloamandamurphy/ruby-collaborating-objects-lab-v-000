@@ -6,6 +6,7 @@ class MP3Importer
 
   def files
     Dir.glob(@path)
+    binding.pry
   end
 
   def import(filenames)
